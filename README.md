@@ -26,7 +26,7 @@ with iRODSSession(irods_env_file=env_file) as session:
         'a_date' : '2023-04-26',
         'author' : {
             'name' : 'Mariana',
-            'email' : 'mariana.montes@kuleuven.be'
+            'email' : 'marianasemail@kuleuven.be'
         }
     }
     my_schema.apply(obj, my_metadata)
